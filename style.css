@@ -64,3 +64,44 @@ ul li a:hover {
   color: #1d4ed8;
 }
 /*------ navbar part end ------*/
+/*---- hero section part start -----*/
+#hero-part {
+  background:
+    linear-gradient(90deg, rgb(0 0 0 / 79%) 30%, rgba(0, 0, 0, 0) 70%),
+    url(images/banner.jpg);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.hero-content {
+  text-align: center;
+  padding: 100px 0;
+}
+.hero-content h1 {
+  font-size: 80px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  line-height: 80%;
+  letter-spacing: -3.2px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.hero-content P {
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Inter", sans-serif;
+  color: #fff;
+  line-height: 24px;
+}
+.hero-content h1 span {
+  font-style: italic;
+}
+.hero-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+}
+/*---- hero section part end ------*/
