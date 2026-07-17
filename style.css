@@ -105,3 +105,56 @@ ul li a:hover {
   padding-top: 150px;
 }
 /*---- hero section part end ------*/
+/*--- speaker section start ---*/
+.speaker-heading h2 {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 56px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  line-height: 64.4%;
+  text-align: center;
+  color: #000102;
+}
+.main-speaker {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.speaker-card {
+  background-color: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02);
+}
+.card-content {
+  padding: 20px;
+}
+.card-content h6 {
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  line-height: 18%;
+  letter-spacing: 0.3px;
+  color: #2563eb;
+  padding-top: 15px;
+}
+.card-content h4 {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 27%;
+  color: #0d1b2a;
+  padding-top: 20px;
+}
+.card-content p {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 21%;
+  color: #575757;
+  padding-top: 20px;
+}
+/*----- speaker section end ----*/
+
