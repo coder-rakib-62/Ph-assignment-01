@@ -157,4 +157,220 @@ ul li a:hover {
   padding-top: 20px;
 }
 /*----- speaker section end ----*/
+/*------ subscription part start -----*/
+#subscription {
+  padding: 100px 0;
+}
+.subscription-header h2 {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  line-height: 60%;
+  text-align: center;
+  color: #0d1b2a;
+}
+.subscription-header p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 24%;
+  text-align: center;
+  padding-top: 30px;
+  color: #575757;
+}
+.subscription-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+.subscription-content .subscription-card {
+  border: 1px solid #ddd;
+  padding: 30px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
 
+.package .package-price {
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.package .package-price h6 {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 19.5px;
+  color: #888888;
+}
+.package .package-price h3 {
+  font-size: 44px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  line-height: 44px;
+  color: #0d1b2a;
+  padding: 10px 0;
+}
+.package .package-list {
+  margin: 10px 0;
+  margin-left: 15px;
+}
+.package .package-list li {
+  font-size: 14px;
+  padding: 5px 0;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+  line-height: 21px;
+  color: #333333;
+  list-style: none;
+  position: relative;
+}
+.package .package-list li::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #2563eb;
+  position: absolute;
+  left: -12px;
+  top: 12px;
+}
+.package .package-btn {
+  width: 100%;
+}
+.subscription-card.active {
+  background-color: #0d1b2a;
+}
+.subscription-card.active .package .package-price h6 {
+  color: #1d4ed8;
+}
+.subscription-card.active .package .package-price h3 {
+  color: #fff;
+}
+.subscription-card.active .package .package-list li {
+  color: #fff;
+}
+.subscription-card:hover {
+  background-color: #0d1b2a;
+}
+.subscription-card:hover .package .package-price h6 {
+  color: #1d4ed8;
+}
+.subscription-card:hover .package .package-price h3 {
+  color: #fff;
+}
+.subscription-card:hover .package .package-list li {
+  color: #fff;
+}
+/*------ subscription part end -----*/
+/*------ Faq section start -----*/
+#faq {
+  padding: 100px 0;
+  background: #f8fafc;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.section-title h2 {
+  font-size: 42px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  color: #0d1b2a;
+  margin-bottom: 15px;
+}
+.section-title p {
+  max-width: 600px;
+  margin: auto;
+  color: #6b7280;
+  line-height: 1.7;
+}
+.faq-container {
+  max-width: 850px;
+  margin: auto;
+}
+.faq-item {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px 25px;
+  margin-bottom: 18px;
+  transition: 0.3s;
+}
+.faq-item:hover {
+  border-color: #2563eb;
+}
+.faq-item summary {
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  color: #111827;
+  list-style: none;
+}
+.faq-item summary::-webkit-details-marker {
+  display: none;
+}
+.faq-item summary::after {
+  content: "+";
+  float: right;
+  font-size: 24px;
+  color: #2563eb;
+}
+.faq-item[open] summary::after {
+  content: "−";
+}
+.faq-item p {
+  margin-top: 15px;
+  color: #6b7280;
+  line-height: 1.7;
+}
+/*------ Faq section end ------*/
+/*---- Footer section start -----*/
+#footer {
+  background: #0f172a;
+  padding: 50px 0 25px;
+}
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-logo img {
+  width: 160px;
+}
+.footer-social {
+  display: flex;
+  gap: 18px;
+}
+.footer-social a {
+  width: 45px;
+  height: 45px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  transition: 0.3s;
+}
+.footer-social a:hover {
+  background: #2563eb;
+  border-color: #2563eb;
+  transform: translateY(-4px);
+}
+#footer hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  margin: 35px 0 25px;
+}
+.footer-bottom {
+  text-align: center;
+}
+.footer-bottom p {
+  color: #94a3b8;
+  font-size: 15px;
+}
+/*---- Footer section end -----*/
